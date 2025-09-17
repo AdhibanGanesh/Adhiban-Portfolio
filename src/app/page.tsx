@@ -64,7 +64,7 @@ export default function Portfolio() {
             <Youtube className="w-8 h-8 hover:text-blue-300" />
           </a>
         </div>
-        <div className="flex gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           <a
             href="#projects"
             className="px-10 py-4 bg-white text-blue-500 font-semibold rounded-2xl shadow hover:bg-gray-300"
@@ -101,7 +101,7 @@ export default function Portfolio() {
                 I am a B.Tech CSE (IoT) Graduate passionate about building projects in AI, IoT, 
                 and Web Development, from Shiv Nadar University, Chennai. I also run a YouTube
                 channel <span className="font-semibold text-blue-700">AG TraVlogs</span> with 
-                40,000+ subscribers, creating content related to Travel around India, Travel Videos, 
+                45,000+ subscribers, creating content related to Travel around India, Travel Videos, 
                 Informative Talks, and more.
               </p>
             </div>
@@ -130,10 +130,10 @@ export default function Portfolio() {
               </h3>
               <p className="text-sm text-gray-600 mb-3">Chennai, India</p>
               <p className="text-black leading-relaxed text-lg justify-center">
-                Implemented a Retrieval-Augmented Generation (RAG) pipeline using
-                LLMs to build a Responsible AI system that evaluates risks and legal
-                compliance in ML models. Focused on Prompt Engineering techniques to
-                generate ethical and explainable risk assessments.
+                Implemented a Retrieval-Augmented Generation (RAG)
+                pipeline for a Responsible AI system that Evaluates Risks and Legal
+                Compliance in Machine Learning models. Applied Prompt Engineering
+                techniques to generate Ethical and Explainable Risk Assessment.
               </p>
             </div>
           </div>
@@ -156,35 +156,41 @@ export default function Portfolio() {
       
               {/* B.Tech */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
-                <div className="flex justify-between items-center">
-                  <p className="text-black text-lg leading-relaxed">
-                    <span className="font-bold text-2xl">B.Tech CSE - (IoT)</span>, <span className="whitespace-nowrap">Shiv Nadar University, Chennai</span><br />
-                    CGPA - <span className="font-semibold">8.907</span>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
+                  <p className="text-black text-lg leading-relaxed sm:mr-4">
+                    <span className="font-bold text-2xl text-black">B.Tech CSE - (IoT)</span>, Shiv Nadar University, Chennai
                   </p>
-                  <span className="text-gray-500 text-lg whitespace-nowrap">(2021 - 2025)</span>
+                  <span className="text-gray-500 mt-2 sm:mt-0 sm:shrink-0">(2021 - 2025)</span>
                 </div>
+                <p className="mt-2 text-black">
+                  CGPA - <span className="font-semibold text-black">8.907</span>
+                </p>
               </div>
 
               {/* Class 12 */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
-                <div className="flex justify-between items-center">
-                  <p className="text-black text-lg leading-relaxed">
-                    <span className="font-bold text-2xl">Class 12 - CBSE</span>, <span className="whitespace-nowrap">BVM Global @ Coimbatore</span><br />
-                    AISSCE - <span className="font-semibold">97.8%</span>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
+                  <p className="text-black text-lg leading-relaxed sm:mr-4">
+                    <span className="font-bold text-2xl text-black">Class 12 - CBSE)</span>, BVM Global @ Coimbatore
                   </p>
-                  <span className="text-gray-500 text-lg whitespace-nowrap">(2019 - 2021)</span>
+                  <span className="text-gray-500 mt-2 sm:mt-0 sm:shrink-0">(2019 - 2021)</span>
                 </div>
+                <p className="mt-2 text-black">
+                  AISSCE - <span className="font-semibold text-black">97.8%</span>
+                </p>
               </div>
 
               {/* Class 10 */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
-                <div className="flex justify-between items-center">
-                  <p className="text-black text-lg leading-relaxed">
-                    <span className="font-bold text-2xl">Class 10 - CBSE</span>, Geethaanjali AISSS, Erode<br />
-                    AISSE - <span className="font-semibold">95%</span>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
+                  <p className="text-black text-lg leading-relaxed sm:mr-4">
+                    <span className="font-bold text-2xl text-black">Class 10 - CBSE</span>, Geethaanjali All India Sr. Sec School, Erode
                   </p>
-                  <span className="text-gray-500 text-lg whitespace-nowrap">(2016 - 2019)</span>
+                  <span className="text-gray-500 mt-2 sm:mt-0 sm:shrink-0">(2016 - 2019)</span>
                 </div>
+                <p className="mt-2 text-black">
+                  AISSE - <span className="font-semibold text-black">95%</span>
+                </p>
               </div>
             </div>
           </div>
@@ -197,8 +203,8 @@ export default function Portfolio() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {[
             {
-              title: "ML Models Risk Compliance & Assessment Application - Gen AI",
-              desc: "Implemented a Retrieval-Augmented Generation (RAG) pipeline using LLMs to build a Responsible AI system that evaluates risks and legal compliance in ML models. Focused on Prompt Engineering techniques to generate ethical and explainable risk assessments.",
+              title: "ML Models Legal Compliance & Risk Assessment Application",
+              desc: "Built a Responsible AI system leveraging LLMs + Retrieval-Augmented Generation (RAG) for automated risk assessment of ML models. Integrated FAISS vector database and LangChain for knowledge retrieval and pipeline orchestration. Generated ethical & explainable outputs applying Prompt Engineering Techniques, reducing compliance risks in AI systems.",
             },
             {
               title: "IoT Based Dairy Food Spoilage Monitoring System",
@@ -262,7 +268,7 @@ export default function Portfolio() {
             <p>CSE Department, Shiv Nadar University Chennai</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow">
-            <h3 className="font-bold mb-2">Namma Area Digital Super Star - Winner</h3>
+            <h3 className="font-bold mb-2">Namma Area Digital Super Star, 2024 - Winner</h3>
             <p>YouTube Channel related Digital Award in Tamil Nadu</p>
           </div>
         </div>
@@ -278,19 +284,23 @@ export default function Portfolio() {
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
             <h3 className="font-bold mb-2">Internet of Things</h3>
-            <p>Arduino IDE, Adafruit IO, Raspberry Pi, ESP8266</p>
+            <p>Arduino IDE, Adafruit IO, Raspberry Pi, ESP8266, Blynk, ThingSpeak, AWS-IoT</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
             <h3 className="font-bold mb-2">Web Development</h3>
-            <p>HTML, CSS, JavaScript, React.js, Flask</p>
+            <p>HTML, CSS, JavaScript, TypeScript, React.js, Node.js, Next.js, Flask API</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
             <h3 className="font-bold mb-2">Data & Visualization</h3>
-            <p>MySQL, Tableau</p>
+            <p>MySQL, Tableau, Machine Learning, Pandas, Scikit-learn, Jupyter, Matplotlib</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
-            <h3 className="font-bold mb-2">Others</h3>
-            <p>Git, Figma, LLM, Langchain, Prompt Engineering, OpenAI API, FAISS</p>
+            <h3 className="font-bold mb-2">DevOps & Others</h3>
+            <p>Git, Maven, Jenkins, Figma, LLM, Prompt Engineering, Gen AI, OpenAI API, FAISS</p>
+          </div>
+          <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
+            <h3 className="font-bold mb-2">Soft Skills</h3>
+            <p>Leadership, Public Speaking, Branding, Digital Marketing</p>
           </div>
         </div>
       </section>
@@ -344,7 +354,7 @@ export default function Portfolio() {
       {/* YouTube Section */}
       <section id="youtube" className="bg-black p-8 text-center">
         <h2 className="text-5xl text-white font-serif mb-6">YouTube Channel</h2>
-        <p className="text-white font-semibold text-2xl">AG TraVlogs – 40,000 plus Subscribers</p>
+        <p className="text-white font-semibold text-2xl">AG TraVlogs – 45,000 plus Subscribers</p>
         <a
           href="https://www.youtube.com/@AGTraVlogs"
           target="_blank"
@@ -354,6 +364,7 @@ export default function Portfolio() {
           Visit My YouTube Channel!
         </a>
         <p className="text-white mt-4 font-semibold text-2xl">[Content Creation, Informative Talks in Tamil, Travel Vlogging across India]</p>
+        <p className="text-white mt-4 font-mono">Built and Grew my YouTube Channel to 45,000 plus SUBSCRIBERS, producing nearly 500 Travel and Infotainment videos with 25 MILLION plus views.</p>
       </section>
 
       {/* Contact Section */}
