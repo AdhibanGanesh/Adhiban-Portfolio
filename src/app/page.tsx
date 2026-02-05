@@ -137,6 +137,20 @@ export default function Portfolio() {
               </p>
             </div>
           </div>
+          <div className="md:w-1/2 w-full space-y-6 order-2 md:order-1">
+            <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <h3 className="text-2xl font-semibold text-gray-900">
+                Academic Trainee Intern, HCL Tech <br />(05/2024 - 07/2024)
+              </h3>
+              <p className="text-sm text-gray-600 mb-3">Chennai, India</p>
+              <p className="text-black leading-relaxed text-lg justify-center">
+                Implemented a Retrieval-Augmented Generation (RAG)
+                pipeline for a Responsible AI system that Evaluates Risks and Legal
+                Compliance in Machine Learning models. Applied Prompt Engineering
+                techniques to generate Ethical and Explainable Risk Assessment.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
