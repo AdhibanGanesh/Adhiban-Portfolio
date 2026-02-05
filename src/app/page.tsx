@@ -126,14 +126,16 @@ export default function Portfolio() {
           <div className="md:w-1/2 w-full space-y-6 order-2 md:order-1">
             <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-semibold text-gray-900">
-                Academic Trainee Intern, HCL Tech <br />(05/2024 - 07/2024)
+                Technical Lead, HCL Tech <br />(09/2025 - Present)
               </h3>
-              <p className="text-sm text-gray-600 mb-3">Chennai, India</p>
+              <p className="text-sm text-gray-600 mb-3">Hyderabad, India</p>
               <p className="text-black leading-relaxed text-lg justify-center">
-                Implemented a Retrieval-Augmented Generation (RAG)
-                pipeline for a Responsible AI system that Evaluates Risks and Legal
-                Compliance in Machine Learning models. Applied Prompt Engineering
-                techniques to generate Ethical and Explainable Risk Assessment.
+                <li>Implemented a Multi-Agent System that 
+                    assesses the viability of starting a Particular Business Type in a Given 
+                    Location, using GenAI. It also provides Strategies to expand the business.</li>
+                <li>Built an Agent to analyze cost inefficiencies in an 
+                    ETL Environment using the metadata and run logs, and provide cost saving
+                    suggestions, using GenAI.</li>
               </p>
             </div>
           </div>
