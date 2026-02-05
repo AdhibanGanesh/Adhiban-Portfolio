@@ -48,7 +48,7 @@ export default function Portfolio() {
           Adhiban Ganesh N
         </motion.h1>
         <p className="text-lg sm:text-xl md:text-2xl mb-2">
-          AI & IoT Enthusiast • Software Developer • Tamil YouTuber
+          Technical Lead @ HCLTech • AI & IoT Enthusiast • Tamil YouTuber
         </p>
         <div className="flex gap-10 mb-6">
           <a href="mailto:adhiban7th@gmail.com" aria-label="Email">
@@ -98,11 +98,11 @@ export default function Portfolio() {
           <div className="md:w-1/2 w-full">
             <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
               <p className="text-black text-lg leading-relaxed font-bold">
-                I am a B.Tech CSE (IoT) Graduate passionate about building projects in AI, IoT, 
-                and Web Development, from Shiv Nadar University, Chennai. I also run a YouTube
-                channel <span className="font-semibold text-blue-700">AG TraVlogs</span> with 
-                45,000+ subscribers, creating content related to Travel around India, Travel Videos, 
-                Informative Talks, and more.
+                I'm a Technical Lead working in GenAI Related Projects at HCLTech in Hyderabad, India. 
+                I am a B.Tech CSE (IoT) Graduate passionate about building projects in AI, IoT, and Web Development, 
+                from Shiv Nadar University, Chennai. I also run a YouTube channel <span className="font-semibold text-blue-700">AG TraVlogs</span> 
+                with 45,000+ subscribers, creating content related to Travel around India, Travel 
+                Videos, Informative Talks, and more.
               </p>
             </div>
           </div>
@@ -316,7 +316,7 @@ export default function Portfolio() {
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
             <h3 className="font-bold mb-2">DevOps & Others</h3>
-            <p>Git, Maven, Jenkins, Figma, LLM, Prompt Engineering, Gen AI, OpenAI API, FAISS, GCP</p>
+            <p>Git, Maven, Jenkins, Figma, LLM, Prompt Engineering, OpenAI API, FAISS, GCP</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
             <h3 className="font-bold mb-2">Soft Skills</h3>
