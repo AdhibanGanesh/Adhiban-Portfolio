@@ -219,6 +219,14 @@ export default function Portfolio() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {[
             {
+              title: "Retail AI Location Strategy Agent",
+              desc: "Developed a Multi-Agent System that assesses the viability of starting a particular business type in a given location, using Google Maps API and Gemini Models. It also provides Strategies to expand the reach of the business and generates an Executive HTML Report and visual Infographic Image using LLM for the end user with all the details and information.",
+            },
+            {
+              title: "ETL Cost Analyzer Agent",
+              desc: "Built an Agent that analyzes the cost inefficiencies in an ETL Environment using the metadata and run logs of the pipelines, and provide cost-saving suggestions. It involves data extraction, preprocessing, mapping cost and leveraging GenAI LLM Model to analyze the data to provide cost-saving suggestions.",
+            },
+            {
               title: "ML Models Legal Compliance & Risk Assessment Application",
               desc: "Built a Responsible AI system leveraging LLMs + Retrieval-Augmented Generation (RAG) for automated risk assessment of ML models. Integrated FAISS vector database and LangChain for knowledge retrieval and pipeline orchestration. Generated ethical & explainable outputs applying Prompt Engineering Techniques, reducing compliance risks in AI systems.",
             },
@@ -246,10 +254,6 @@ export default function Portfolio() {
             {
               title: "Automated Street Lights System",
               desc: "Implemented an Energy-efficient system where Streetlights automatically activate based on Ambient Light and Motion Detection. Used LDR and PIR sensors to reduce power consumption.",
-            },
-            {
-              title: "Automated Car Wiper",
-              desc: "Created a Smart Wiper system that Activates automatically based on Rain Detection using a Rain sensor. Enhanced Driver Convenience and Safety during Rainy conditions.",
             },
           ].map((proj, i) => (
             <div
@@ -312,7 +316,7 @@ export default function Portfolio() {
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
             <h3 className="font-bold mb-2">DevOps & Others</h3>
-            <p>Git, Maven, Jenkins, Figma, LLM, Prompt Engineering, Gen AI, OpenAI API, FAISS</p>
+            <p>Git, Maven, Jenkins, Figma, LLM, Prompt Engineering, Gen AI, OpenAI API, FAISS, GCP</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300">
             <h3 className="font-bold mb-2">Soft Skills</h3>
